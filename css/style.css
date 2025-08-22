@@ -405,7 +405,7 @@ body{
   cursor: pointer;
   border: 2px solid #7644C3;
   transition: 0.3s;
-}
+}   
 
 .btn-solid2:hover {
   background: transparent;
@@ -426,12 +426,12 @@ body{
   .text::after {
     content: '';
     position: absolute;
-    width: 75%;
+    width: 87%;
     transform: scaleX(0);
     height: 4px;
     bottom: 0;
     left: 0;
-    margin-left: 10px;
+    margin-left: 5px;
     background-color: #FF9900;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
