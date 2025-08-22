@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bodyC {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #7644C3, #ff9900); 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: entrada 2.2s ease-in-out;
+}
+
+@keyframes entrada {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.containerC {
+  text-align: center;
+  background-color: #f3d394;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.dangerC {
+  position: absolute;
+  margin-left: 54%;
+  animation: tiltShake 5.5s infinite;
+}
+
+.fotoC {
+  max-width: 500px;
+  max-height: 500px;
+  width: 30%;
+  margin-top: 60%;
+  
+}
+
+.warning-icon img {
+  width: 100%;
+}
+
+@keyframes tiltShake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+  75% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+.h1C {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #ffa500;
+  width: 22ch;
+  animation: digitar 3s steps(22) 1s 1 normal both, blink 0.8s infinite;
+}
+
+@keyframes digitar {
+  from { width: 0; }
+  to { width: 19ch; }
+}
+
+.pC {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.footerC {
+  font-weight: bold;
+  color: #444;
+  margin-top: 20px;
+}
+
+.carregandoC {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #ffa500;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  animation: rodar 1.5s linear infinite;
+}
+
+@keyframes rodar {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
