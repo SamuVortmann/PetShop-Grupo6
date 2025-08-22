@@ -209,13 +209,13 @@ body{
     
 }
 
-.bab h1{
+.lh1 h1{
     margin: 0px;
     padding: 0px;
     font-size: 30px;
 }
 
-.premium {
+.sobre {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,36 +223,38 @@ body{
     padding: 50px 0;
 }
 
-.premium-content {
+.sobre-content {
     display: flex;
     width: 100%;
     justify-content: center;
     gap: 60px;
 }
 
-.premium-image {
+.sobre-image {
     width: 450px;
     border-radius: 12px;
     margin-right: 7%;
 }
 
-.premium-text {
-    width: 800px;
+.sobre-image {
+    width: 500px;
     text-align: left;
+    margin-left: 100px;
 }
 
-.premium-text h2 {
+.sobre-texto h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: #FF9900;
+    margin-top: 60px;
 }
 
-.premium-text .highlight {
+.sobre-texto .highlight {
     color: #FF9900;
 }
 
-.premium-text p {
+.sobre-texto p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -261,13 +263,11 @@ body{
     
 }
 
-.premium-buttons {
+.sobre-buttons {
     margin-top: 20px;
     display: flex;
     gap: 15px;
 }
-
-
 
 
 .btn-solid {
@@ -287,7 +287,7 @@ body{
     background: #FF9900;
 }
 
-.about {
+.banho {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -296,37 +296,37 @@ body{
   text-align: right;
 }
 
-.about-content {
+.banho-content {
   display: flex;
   align-items: center;
   width: 100%;
   gap: 60px;
 }
 
-.about-image {
+.banho-image {
   width: 450px;
   border-radius: 12px;
   margin-left: 7%;
 }
 
-.about-text {
+.banho-text {
   width: 900px;
   margin-left: 10%;
 }
 
 
-.about-text h2 {
+.banho-text h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 24px;
   color: #7644C3;
 }
 
-.about-text .highlight {
+.banho-text .highlight {
   color: #7644C3;
 }
 
-.about-text p {
+.banho-text p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -334,7 +334,7 @@ body{
   margin-top: 10px;
 }
 
-.about-text button {
+.banho-text button {
   margin-top: 20px;
 }
 
